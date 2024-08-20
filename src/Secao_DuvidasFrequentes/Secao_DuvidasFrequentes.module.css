@@ -1,0 +1,53 @@
+.secaoDuvidasFrequentes {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .duvidaContainer {
+    background-color: black;
+    border-radius: 20px; /* aplicação de arredondamento da border-radius*/
+    overflow: hidden; /* Garante que os cantos da resposta também sigam o border-radius */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pergunta {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .seta {
+    font-size: 1rem;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .resposta {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: white;
+    padding: 15px;
+    
+  }
+  
