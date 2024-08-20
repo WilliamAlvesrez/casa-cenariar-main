@@ -1,0 +1,30 @@
+{
+    "totalExibir": 6,
+    "duvidasFrequentes": [
+        {
+            "pergunta": "Qual é o tipo de locação?",
+            "resposta": "Somos uma casa de criação de conteúdo com locação por hora, sendo possível locar hora livre, meia diária e diária."
+        },
+        {
+            "pergunta": "Os cenários são fixos?",
+            "resposta": "Ao contratar a hora da casa, você terá acesso a todos os cenários externos e/ou Interno e/ou Studio Branco. "
+        },
+        {
+            "pergunta": "Como funciona o acesso aos cenários?",
+            "resposta": "Para garantir novidades, iremos trabalhar com temporadas. Os cenários atuais ficarão na casa por tempo limitado."
+        },
+        {
+            "pergunta": "E se chover no dia das minhas fotos?",
+            "resposta": "Em caso de chuva moderada, é super possível fotografar sua campanha ☂️ Apesar dos cenários serem ao ar livre, nosso espaço conta com ombrelone (guarda-sol) de 3m para auxiliar na proteção dos equipamentos no momento das fotos e vídeos. Também possuímos uma área coberta climatizada ao lado dos cenários, para que acompanhantes e outros membros da equipe não precisem ficar na chuva ou no sol ❄️"
+        },
+        {
+            "pergunta": "A cerca elétrica não aparece nas fotos/vídeos?",
+            "resposta": "Presencialmente conseguimos ver os fios de segurança, mas nas fotos e vídeos fica imperceptível 🥰"
+        },
+        {
+            "pergunta": "Como funciona a taxa de Cancelamento:",
+            "resposta": "Taxa de reserva não reembolsável. Em caso de cancelamento em até 48h antes da data reservada, é possível remarcar a locação sem custo adicional de acordo com os dias disponíveis."
+        }
+      
+    ]
+}
