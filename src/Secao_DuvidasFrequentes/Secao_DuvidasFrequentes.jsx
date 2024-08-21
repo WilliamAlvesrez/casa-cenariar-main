@@ -13,7 +13,7 @@ function Secao_DuvidasFrequentes() {
   }, []);
 
   // Função para alternar o índice ativo. Se o índice clicado já estiver ativo, ele será desativado (definido como null).
-// Caso contrário, o índice clicado será definido como o ativo.
+  // Caso contrário, o índice clicado será definido como o ativo.
   function handleToggle(index) {
     setActiveIndex(prevIndex => (prevIndex === index ? null : index));
   }
@@ -24,8 +24,8 @@ function Secao_DuvidasFrequentes() {
         duvidasFrequentes.map((duvida, index) => (
           <div key={index} className={css.duvidaContainer}>
             <div
-			// Adiciona a classe CSS 'pergunta' ao elemento e define um manipulador de clique que chama a função handleToggle com o índice atual.
-// Exibe a pergunta da FAQ e um ícone de seta que muda de direção com base no estado ativo (expandido ou colapsado).
+              // Adiciona a classe CSS 'pergunta' ao elemento e define um manipulador de clique que chama a função handleToggle com o índice atual.
+              // Exibe a pergunta da FAQ e um ícone de seta que muda de direção com base no estado ativo (expandido ou colapsado).
               className={css.pergunta}
               onClick={() => handleToggle(index)}
             >
