@@ -1,0 +1,48 @@
+.FaleConosco {
+    border: 2px solid red;
+    
+}
+
+.FaleConosco h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+input[type="text"],
+input[type="phone"],
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 10%;
+    border-radius: 90px;
+    border: 1px solid #ccc;
+}
+
+input[type="button"] {
+    width: 40%;
+    height: 30px; /* Defina uma altura fixa para o botão */
+    padding: 0; /* Remova o padding superior */
+    margin: 10px auto;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="button"]:hover {
+    background-color: #333; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
