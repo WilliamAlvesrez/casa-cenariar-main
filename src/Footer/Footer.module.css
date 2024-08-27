@@ -1,72 +1,51 @@
-.footer {
-   max-width: 1200px;
-   width: 100%;
-   background-color: black;
-   padding: 0 20px;
+.secaoFooter {
+    background-color: black;
+    margin: 20px 20px;
 }
 
-.logo {
-    top: 0;
-    left: 0;
-    max-width: 100px;
-    height: auto;
-}
-
-h3 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-}
-
-.footer-secao {
+.footerLogoCenariar {
     position: relative;
     margin: 0;
     text-align: left;
-}
-
-.footer-superior {
-    display: flex;
-    flex-direction: row;
 
 }
-
-.div-contato p {
-    color: white;
-}
-
-.detalhesContato {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-superior>div:first-child {
-    flex: 0 0 40%;
-    text-align: justify;
-    align-items: center;
-}
-
-.footer-superior>div:last-child {
-    flex: 0 0 60%;
-}
-
 
 .desenvolvedores {
     
     display: flex;
     justify-content: space-between;
-    
-   
+
+
+}
+
+.logo {
+    top: 10px;
+    left: 0;
+    max-width: 200px;
+    height: auto;
+}
+
+div h3 {
+    text-align: center;
+ 
+    font-weight: bold;
+    color: white;
+}
+
+.div-contato p {
+    color: white;
+    font-size: 20px;
 }
 
 .centralizado {
+    margin-right: 60px;
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .social-icons {
+    margin-right: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,11 +53,14 @@ h3 {
 }
 
 .social-icons a {
-    color: #fff; /* Cor dos ícones */
-    font-size: 24px;   /* Tamanho dos ícones */
+    color: #fff;
+    /* Cor dos ícones */
+    font-size: 40px;
+    /* Tamanho dos ícones */
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #007bff; /* Cor ao passar o mouse */
+    color: #007bff;
+    /* Cor ao passar o mouse */
 }
