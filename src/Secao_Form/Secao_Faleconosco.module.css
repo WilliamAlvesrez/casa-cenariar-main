@@ -1,0 +1,35 @@
+.contato {
+    width: 100%;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url('../assets/planoFundoFooter.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.contato-superior {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.detalhesContato {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-superior>div:first-child {
+    flex: 0 0 40%;
+    text-align: justify;
+    align-items: center;
+}
+
+.contato-superior>div:last-child {
+    flex: 0 0 60%;
+}

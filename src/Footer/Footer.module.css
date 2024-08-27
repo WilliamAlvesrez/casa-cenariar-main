@@ -1,13 +1,8 @@
 .footer {
-    width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background-image: url('../assets/planoFundoFooter.png');
-    background-size: cover;
-    background-position: center;
-    color: black;
-    font-family: Arial, sans-serif;
+   max-width: 1200px;
+   width: 100%;
+   background-color: black;
+   padding: 0 20px;
 }
 
 .logo {
@@ -21,6 +16,7 @@ h3 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 
 .footer-secao {
@@ -33,6 +29,10 @@ h3 {
     display: flex;
     flex-direction: row;
 
+}
+
+.div-contato p {
+    color: white;
 }
 
 .detalhesContato {
@@ -51,23 +51,20 @@ h3 {
     flex: 0 0 60%;
 }
 
-.desenvolvedores {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;   
-    color: #fff;
-    margin: 0;
 
+.desenvolvedores {
+    
+    display: flex;
+    justify-content: space-between;
+    
+   
 }
 
 .centralizado {
     text-align: center;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: bold;
-  }
+}
 
 .social-icons {
     display: flex;
@@ -78,11 +75,10 @@ h3 {
 
 .social-icons a {
     color: #fff; /* Cor dos ícones */
-        font-size: 24px; /* Tamanho dos ícones */
-        transition: color 0.3s ease;
+    font-size: 24px;   /* Tamanho dos ícones */
+    transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #007bff;
-    /* Cor ao passar o mouse */
+    color: #007bff; /* Cor ao passar o mouse */
 }

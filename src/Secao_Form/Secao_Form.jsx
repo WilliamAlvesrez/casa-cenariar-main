@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import css from './FaleConosco.module.css';
+import css from './Secao_Form.module.css';
 
-
-function FaleConosco() {
-	const [form, setForm] = useState({
+function Secao_Form() {
+    const [form, setForm] = useState({
 		nome: '',
 		email: ''
 	})
@@ -59,4 +58,4 @@ function FaleConosco() {
 	)
 }
 
-export default FaleConosco;
+export default Secao_Form;
