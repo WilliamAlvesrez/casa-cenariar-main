@@ -18,16 +18,13 @@ h2 {
 
 .duvidaContainer {
   background-color: black;
-  border-radius: 20px;
-  /* aplicação de arredondamento da border-radius*/
-  overflow: hidden;
-  /* Garante que os cantos da resposta também sigam o border-radius */
+  border-radius: 20px; /* aplicação de arredondamento da border-radius*/
+  overflow: hidden; /* Garante que os cantos da resposta também sigam o border-radius */
   margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #ddd;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 30px 30px;
-
+  margin: 20px 20px;
 }
 
 .pergunta {

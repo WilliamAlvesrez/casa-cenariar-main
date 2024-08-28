@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import css from './Secao_Form.module.css';
 
 function Secao_Form() {
-    const [form, setForm] = useState({
+	const [form, setForm] = useState({
 		nome: '',
 		email: ''
 	})
@@ -18,14 +18,14 @@ function Secao_Form() {
 	}
 
 	function validar() {
-		if (form.nome === '' || form.phone === '' || form.email ===  '')
+		if (form.nome === '' || form.phone === '' || form.email === '')
 			alert('Todos os campos precisam ser preenchidos');
 		else {
 			var templateParams = {
 				from_name: form.nome,
 				from_phone: form.phone,
 				from_email: form.email,
-				
+
 			};
 			emailjs.send("service_jypz835",
 				"template_t2cq9vm",
@@ -45,13 +45,12 @@ function Secao_Form() {
 	return (
 		<section className={css.FaleConosco}>
 
-			<h2>Fale Conosco</h2>
-
 			<form className={css.form} >
 
 				<input type="text" name="nome" placeholder='Digite seu nome' onChange={getData} />
 				<input type="text" name="phone" placeholder='Telefone' onChange={getData} />
 				<input type="email" name="email" placeholder='E-mail' onChange={getData} />
+				<textarea name="mensagem" placeholder="Digite sua mensagem" maxLength="500" onChange={getData}></textarea>
 				<input type="button" value="Enviar" onClick={validar} />
 			</form>
 		</section>
