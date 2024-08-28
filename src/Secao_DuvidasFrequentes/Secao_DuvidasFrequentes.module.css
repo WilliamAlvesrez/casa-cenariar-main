@@ -39,10 +39,18 @@ h2 {
   width: 100%;
 }
 
-.seta {
-  font-size: 1rem;
-  color: white;
-  transition: transform 0.3s ease;
+
+.seta::after {
+  content: '\25BC'; /* Código Unicode para uma seta para baixo */
+  font-size: 2rem;
+  color: white; /* Cor branca para a seta */
+  display: inline-block;
+  margin-left: 0.5rem; /* Espaço entre o texto e a seta */
+margin-right: 20px;
+}
+
+.seta::after {
+  content: ''; /* Remover a seta adicional */
 }
 
 .resposta {

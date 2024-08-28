@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import css from './Secao_DuvidasFrequentes.module.css';
 
+
 function Secao_DuvidasFrequentes() {
   const [duvidasFrequentes, setDuvidasFrequentes] = useState([]);
   const [activeIndex, setActiveIndex] = useState(null); // Estado para controlar qual índice de FAQ está atualmente ativo (expandido).
@@ -31,7 +32,7 @@ function Secao_DuvidasFrequentes() {
             >
               {duvida.pergunta}
               <span className={css.seta}>
-                {activeIndex === index ? '▲' : '▼'}
+                {activeIndex === index ? '∧ ' : '∨ '}
               </span>
             </div>
             {activeIndex === index && (
