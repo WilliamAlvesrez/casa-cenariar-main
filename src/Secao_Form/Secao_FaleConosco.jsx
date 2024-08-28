@@ -8,7 +8,7 @@ function Secao_FaleConosco() {
             <div className={css['contato-superior']}>
                 <div className={css.detalhesContato}>
                     <h2>Fale Conosco!</h2>
-                    <p>"Capture o momento perfeito com a gente! 📸✨ Quer saber mais sobre nossos serviços de fotografia e como podemos transformar suas memórias em imagens inesquecíveis? Preencha o formulário entre em contato conosco. Estamos prontos para criar algo incrível para você!"</p>
+                    <p>"Capture o momento perfeito com a gente! 📸✨ Quer saber mais sobre nossos serviços de locação de cenários para fotografia e como podemos transformar suas memórias em imagens inesquecíveis? Preencha o formulário entre em contato conosco. Estamos prontos para criar algo incrível para você!"</p>
                 </div>
                 <div className={css['secao-form']}>
                     <Secao_Form />
